@@ -1,0 +1,591 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --page-blocks-width: 60%;
+    --bg-gray: #181F29;
+}
+
+body {
+    background: #11161E;
+}
+
+.header {
+    width: var(--page-blocks-width);
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-links {
+    height: 50%;
+    width: 30%;
+    display: flex;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-link {
+    transition: 0.1s;
+    text-decoration: none;
+    color: rgba(118, 134, 159, 0.8);
+    font-size: 18px;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+.header-logo {
+    height: 53px;
+    width: 34px;
+}
+
+.welcome-block {
+    width: var(--page-blocks-width);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+
+    display: flex;
+    
+}
+
+.welcome-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-text {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome-header {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 101.3%;
+    color: #FFFFFF;
+}
+
+.welcome-desc {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 129.8%;
+    color: #6A7C95;
+    margin-top: 20px;
+}
+
+
+.welcome-order {
+    transition: 0.15s;
+    width: 260px;
+    height: 50px;
+
+    background: #5CA35B;
+    border-radius: 10px;
+    color: white;
+    margin-top: 60px;
+
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 151.3%;
+    cursor: pointer;
+}
+
+.welcome-img {
+    margin-left: 10%;
+    position: relative;
+    width: 40%;
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-ellipse {
+    width: -webkit-fill-available;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+}
+
+.welcome-pic {
+    width: -webkit-fill-available;
+}
+
+.welcome-contacts {
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+}
+
+.wc-block {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.wc-img {
+    width: 45px;
+}
+
+.wc-content {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 151.3%;
+
+    display: flex;
+    align-items: center;
+    color: rgba(118, 134, 159, 0.8);
+    margin-left: 10px;
+}
+
+.description {
+    width: 100%;
+    background-color: var(--bg-gray);
+    margin-top: 150px;
+    padding: 150px 0;
+}
+
+.description-block {
+    width: var(--page-blocks-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc_text {
+    display: flex;
+    flex-direction: column;
+}
+
+.desc_t_header {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.desc_t_text {
+    margin-top: 10px;;
+    max-width: 70%;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142.8%;
+    /* or 29px */
+    
+    color: #6A7C95;
+}
+
+.description_benefits {
+
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.description_benefits_block {
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+
+    background: #273140;
+    border-radius: 15px;
+    padding: 35px;
+
+}
+
+.dbb_img {
+    width: 90px;
+    height: 90px;
+}
+
+.dbb_name {
+    margin-top: 20px;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+.dbb_desc {
+    margin-top: 20px;
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 142.8%;
+    /* or 26px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #717E92;
+}
+
+.opportunities {
+    width: var(--page-blocks-width);
+
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 150px 0;
+}
+
+.opportunities_block {
+    width: 50%;
+}
+
+.desc_t_text_oppo {
+    width: 100%;
+    margin-top: 10px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142.8%;
+    /* or 29px */
+    
+    color: #6A7C95;
+}
+
+
+.opportunities_imgs {
+    display: flex;
+    height: 45px;
+    width: 90%;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+
+.comfort {
+    width: 100%;
+    background-color: var(--bg-gray)
+}
+
+.comfort_block {
+    padding-top: 150px;
+    width: var(--page-blocks-width);
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.comfort_flex {
+    width: 100%;
+    display: flex;
+}
+
+.comfort_text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.comfort_header {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    display: flex;
+    align-items: center;
+
+    color: #FFFFFF;
+}
+
+.comfort_textblock {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142.8%;
+    margin-top: 20px;
+
+    color: #6A7C95;
+}
+
+.comfort_photo {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.comfort_img {
+    width: auto;
+}
+
+.comfort_button {
+    margin-top: 50px;
+    background: #212A38;
+    border-radius: 10px;
+    border: none;
+    width: 260px;
+    height: 50px;
+    outline: none;
+
+    
+    color: #6A7C95;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 151.3%;
+    cursor: pointer;
+}
+
+.rates {
+    width: var(--page-blocks-width);
+    margin-left: auto;
+    margin-right: auto;
+
+    padding: 150px 0;
+}
+
+.rate_t_text {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142.8%;
+    /* or 29px */
+
+
+    color: #6A7C95;
+    max-width: 50%;
+    margin-top: 15px;
+}
+
+.rates_block {
+    width: 100%;
+    margin-top: 40px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.rates_elem {
+    width: 25%;
+    background: #273140;
+    box-shadow: 0px 1px 26px rgba(24, 31, 41, 0.15);
+    border-radius: 15px;
+    padding: 26px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.rates_header {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
+
+.rates_hdesc {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 142.8%;
+
+    color: #717E92;
+}
+
+.rate_pref {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    list-style: inside;
+
+}
+
+.rate_pref_elem {
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 160.3%;
+    
+    color: #717E92;
+}
+
+.pref_elem_na {
+    color: #3B485A;
+}
+
+.pref_buy {
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+    background: red;
+    border: none;
+    margin-top: 30px;
+
+    font-family: 'Mont';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+
+.pref_alt {
+    background: #6A7395;
+}
+
+.pref_komand {
+    background: #6A9590;
+}
+
+.pref_delit {
+    background: #95936A;;
+}
+
+.updates {
+    width: 100%;
+    padding: 150px 0;
+    background-color: var(--bg-gray);
+}
+
+.updates_block {
+    width: var(--page-blocks-width);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.updates_block_content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.updates_header {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.updates_desc {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 142.8%;
+    color: #6A7C95;
+    margin-top: 10px;
+}
+
+.upadets_networks_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 65%;
+    height: 65px;
+    margin-top: 40px;
+}
+
+.updates_network_img {
+    width: 65px;
+}
+
+.footer_block {
+    width: var(--page-blocks-width);
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 75px;
+}
+
+.policy {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 128.8%;
+
+    color: #2D3746;
+    text-decoration: none;
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+}
+
+.copyright {
+    margin-left: 15px;
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 128.8%;
+
+    color: #2D3746;
+}
+
+.footer_img {
+    width: 35px;
+}
+
+.header-link:hover, .header-active {
+    color: #5CA35B;
+    
+
+}
+.welcome-order:hover {
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 15px 0px #5CA35B;
+    transform: scale(1.05);
+}
